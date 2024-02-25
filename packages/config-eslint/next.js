@@ -21,7 +21,7 @@ module.exports = {
     "eslint-config-turbo",
   ].map(require.resolve),
   parserOptions: {
-    project: "./tsconfig.json",
+    project,
   },
   globals: {
     React: true,
